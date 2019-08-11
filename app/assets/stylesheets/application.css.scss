@@ -13,6 +13,8 @@
  *= require_tree .
  *= require_self
  */
+ 
+ //Bootstrap + nagłówki
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
@@ -21,6 +23,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+//Navbar + tło + kolory
 .navbar, .home-callout {
     //Gradient provided by @_ighash at uiGradients.com
     background: #333333;  /* fallback for old browsers */  
@@ -31,6 +34,17 @@ h1, h2, h3 {
 .navbar{
     border: none;
 }
+    
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: whitesmoke;
+        &.hover {
+        color: black;
+        opacity: 0.5;
+        }
+}
+
+//Wygląd strony startowej
 
 .home-callout {
     color: white;
@@ -38,15 +52,6 @@ h1, h2, h3 {
     padding-top: 50px;
     padding-bottom: 100px;
     }
-    
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a {
-    color: whitesmoke;
-}
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-nav > li > a:hover {
-    color: black;
-    opacity: 0.5;
-}
+
 
