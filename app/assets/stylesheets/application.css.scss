@@ -25,7 +25,6 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
-//Navbar + tło + kolory
 .navbar, .home-callout {
     //Gradient provided by @_ighash at uiGradients.com
     background: #333333;  /* fallback for old browsers */  
@@ -33,8 +32,15 @@ h1, h2, h3 {
     background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+// Navbar Styles
+
 .navbar{
     border: none;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
     
 .navbar-default .navbar-brand,
