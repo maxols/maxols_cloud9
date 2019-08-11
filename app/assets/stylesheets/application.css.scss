@@ -32,7 +32,7 @@ h1, h2, h3 {
     background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-// Navbar Styles
+// Nav Styles
 
 .navbar{
     border: none;
@@ -51,6 +51,18 @@ h1, h2, h3 {
         opacity: 0.5;
         }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333333;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #dd1818;
+    } 
+}
+
 
 //Wygląd strony startowej
 
